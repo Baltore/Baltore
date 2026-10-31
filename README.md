@@ -7,43 +7,14 @@
 <img src="https://img.shields.io/badge/profile-Baltore-ffffff?style=flat-square&labelColor=0b1424" alt="">
 </p>
 
-## `> about`
+<p align="center"><img src="assets/about.svg" alt="About" width="100%"></p>
 
-I build and break things **to understand how to defend them**.
-Cybersecurity-minded developer: I like detection and monitoring (SIEM), hardened web applications, and smart-home / IoT setups that are reachable from outside **without** being exposed.
+<p align="center"><img src="assets/projects.svg" alt="Featured projects: TVTrack and Domotique-HomeASS" width="100%"></p>
 
-```text
-focus    : defensive security · detection & monitoring · secure web development
-building : full-stack web apps, a live 3D smart-home dashboard
-habits   : least privilege · secrets out of git · 2FA + VPN instead of open ports
-```
-
-## `> featured projects`
-
-<table>
-<tr>
-<td width="50%" valign="top">
-
-### 📺 [TVTrack](https://github.com/Baltore/tvtrack)
-Full-stack **anime tracking app**: library, season-by-season and episode-by-episode progress, release calendar, AniList import.
-
-`React` `Vite` `Node.js` `Express` `MongoDB` `JWT` `Docker`
-
-**Security built in:** Helmet headers, strict CORS, rate limiting against brute force, bcrypt (cost 12), JWT with refusal of weak secrets, input validation, NoSQL-injection sanitization, per-user data scoping, no stack traces leaked.
-
-</td>
-<td width="50%" valign="top">
-
-### 🏠 [Domotique-HomeASS](https://github.com/Baltore/Domotique-HomeASS)
-**Live 3D plan of a three-storey house** for Home Assistant, with a family of custom dashboard cards in dependency-free JavaScript.
-
-`three.js` `glTF` `Java` `Python` `Home Assistant` `Sweet Home 3D`
-
-**Security built in:** every entity-derived string is escaped before reaching the DOM (XSS hardening), no secrets or personal data in the repository, remote access through a VPN with 2FA rather than an open port.
-
-</td>
-</tr>
-</table>
+<p align="center">
+<a href="https://github.com/Baltore/tvtrack"><img src="https://img.shields.io/badge/open-TVTrack-00f0ff?style=for-the-badge&labelColor=0b1424" alt="TVTrack"></a>
+<a href="https://github.com/Baltore/Domotique-HomeASS"><img src="https://img.shields.io/badge/open-Domotique--HomeASS-7c3aed?style=for-the-badge&labelColor=0b1424" alt="Domotique-HomeASS"></a>
+</p>
 
 ## `> skill map`
 

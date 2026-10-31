@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 450" width="1280" height="450" font-family="Consolas, 'SFMono-Regular', 'Courier New', monospace">
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#04070d"/><stop offset="1" stop-color="#0b1424"/></linearGradient>
+<linearGradient id="ln" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#00f0ff"/><stop offset="1" stop-color="#7c3aed"/></linearGradient>
+<radialGradient id="glow" cx=".9" cy=".1" r=".6"><stop offset="0" stop-color="#00f0ff" stop-opacity=".18"/><stop offset="1" stop-color="#00f0ff" stop-opacity="0"/></radialGradient>
+<pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#00f0ff" stroke-opacity=".06"/></pattern>
+<style>.blink{animation:b 1.1s steps(1) infinite}@keyframes b{50%{opacity:0}}.pulse{animation:p 3s ease-in-out infinite}@keyframes p{0%,100%{opacity:.6}50%{opacity:1}}</style>
+</defs>
+<rect width="1280" height="450" rx="22" fill="url(#bg)"/><rect width="1280" height="450" rx="22" fill="url(#grid)"/><rect width="1280" height="450" rx="22" fill="url(#glow)"/>
+<rect x="1" y="1" width="1278" height="448" rx="21" fill="none" stroke="url(#ln)" stroke-width="2" opacity=".65"/>
+<circle cx="44" cy="36" r="7" fill="#ff5f56"/><circle cx="68" cy="36" r="7" fill="#ffbd2e"/><circle cx="92" cy="36" r="7" fill="#27c93f"/>
+<text x="640.0" y="41" text-anchor="middle" fill="#6e7f99" font-size="16">baltore@lab: ~/about</text>
+<text x="64" y="100" fill="#7ee787" font-size="24" font-weight="500" text-anchor="start" >$ cat about.md</text>
+<text x="64" y="150" fill="#ffffff" font-size="34" font-weight="700" text-anchor="start" >I build and break things</text><text x="543.5999999999999" y="150" fill="#00f0ff" font-size="34" font-weight="700" text-anchor="start" >to understand how to defend them.</text>
+<text x="64" y="196" fill="#aab8cf" font-size="21" font-weight="400" text-anchor="start" >Cybersecurity-minded developer: detection and monitoring (SIEM), hardened web apps,</text>
+<text x="64" y="226" fill="#aab8cf" font-size="21" font-weight="400" text-anchor="start" >and smart-home / IoT setups reachable from outside — without being exposed.</text>
+<line x1="64" y1="258" x2="1216" y2="258" stroke="#1d2b45"/>
+<text x="64" y="300" fill="#7ee787" font-size="24" font-weight="500" text-anchor="start" >$ cat profile.txt</text>
+<text x="64" y="340" fill="#00f0ff" font-size="21" font-weight="700" text-anchor="start" >focus    </text><text x="177.39999999999998" y="340" fill="#e6edf3" font-size="21" font-weight="400" text-anchor="start" >: defensive security · detection &amp; monitoring · secure web development</text>
+<text x="64" y="374" fill="#7c3aed" font-size="21" font-weight="700" text-anchor="start" >building </text><text x="177.39999999999998" y="374" fill="#e6edf3" font-size="21" font-weight="400" text-anchor="start" >: full-stack web apps · a live 3D smart-home dashboard</text>
+<text x="64" y="408" fill="#27c93f" font-size="21" font-weight="700" text-anchor="start" >habits   </text><text x="177.39999999999998" y="408" fill="#e6edf3" font-size="21" font-weight="400" text-anchor="start" >: least privilege · secrets out of git · 2FA + VPN instead of open ports</text>
+<rect class="blink" x="64" y="438" width="13" height="24" fill="#00f0ff"/>
+</svg>
