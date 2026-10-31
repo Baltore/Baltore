@@ -1,12 +1,5 @@
 <p align="center"><img src="assets/banner.svg" alt="Baltore" width="100%"></p>
 
-<p align="center">
-<img src="https://img.shields.io/badge/focus-cybersecurity-00f0ff?style=flat-square&labelColor=0b1424" alt="">
-<img src="https://img.shields.io/badge/stack-full--stack%20JS-7c3aed?style=flat-square&labelColor=0b1424" alt="">
-<img src="https://img.shields.io/badge/home-automation-27c93f?style=flat-square&labelColor=0b1424" alt="">
-<img src="https://img.shields.io/badge/profile-Baltore-ffffff?style=flat-square&labelColor=0b1424" alt="">
-</p>
-
 <p align="center"><img src="assets/about.svg" alt="About" width="100%"></p>
 
 <p align="center"><img src="assets/projects.svg" alt="Featured projects: TVTrack and Domotique-HomeASS" width="100%"></p>
