@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 640" width="1280" height="640" font-family="Consolas, 'SFMono-Regular', 'Courier New', monospace">
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#04070d"/><stop offset="1" stop-color="#0b1424"/></linearGradient>
+<linearGradient id="ln" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#00f0ff"/><stop offset="1" stop-color="#7c3aed"/></linearGradient>
+<radialGradient id="core" cx=".5" cy=".5" r=".5"><stop offset="0" stop-color="#00f0ff" stop-opacity=".35"/><stop offset="1" stop-color="#00f0ff" stop-opacity="0"/></radialGradient>
+<pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#00f0ff" stroke-opacity=".06"/></pattern>
+<style>.dash{stroke-dasharray:4 7;animation:flow 1.6s linear infinite}@keyframes flow{to{stroke-dashoffset:-22}}
+.pulse{animation:pulse 2.8s ease-in-out infinite}@keyframes pulse{0%,100%{opacity:.55}50%{opacity:1}}</style>
+</defs>
+<rect width="1280" height="640" rx="22" fill="url(#bg)"/><rect width="1280" height="640" rx="22" fill="url(#grid)"/>
+<rect x="1" y="1" width="1278" height="638" rx="21" fill="none" stroke="url(#ln)" stroke-width="2" opacity=".6"/>
+<circle cx="640" cy="318" r="210" fill="url(#core)"/>
+<rect x="392" y="34" width="496" height="128" rx="18" fill="#7c3aed" fill-opacity=".04" stroke="#7c3aed" stroke-opacity=".45" stroke-dasharray="7 6"/>
+<text x="410" y="58" fill="#7c3aed" fill-opacity=".8" font-size="13" letter-spacing="3">RED / BLUE</text>
+<rect x="36" y="130" width="340" height="360" rx="18" fill="#00f0ff" fill-opacity=".04" stroke="#00f0ff" stroke-opacity=".45" stroke-dasharray="7 6"/>
+<text x="54" y="154" fill="#00f0ff" fill-opacity=".8" font-size="13" letter-spacing="3">PÉRIMÈTRE</text>
+<rect x="940" y="96" width="304" height="374" rx="18" fill="#27c93f" fill-opacity=".04" stroke="#27c93f" stroke-opacity=".45" stroke-dasharray="7 6"/>
+<text x="958" y="120" fill="#27c93f" fill-opacity=".8" font-size="13" letter-spacing="3">SOC</text>
+<rect x="134" y="506" width="1011" height="108" rx="18" fill="#ffb347" fill-opacity=".04" stroke="#ffb347" stroke-opacity=".45" stroke-dasharray="7 6"/>
+<text x="152" y="530" fill="#ffb347" fill-opacity=".8" font-size="13" letter-spacing="3">INFRA</text>
+<path d="M640 318 L500 98" stroke="#7c3aed" stroke-opacity=".35" stroke-width="1.4" fill="none" class="dash"/>
+<circle r="3.4" fill="#7c3aed"><animateMotion dur="3.2s" begin="0.00s" repeatCount="indefinite" path="M640 318 L500 98"/></circle>
+<path d="M640 318 L780 98" stroke="#7c3aed" stroke-opacity=".35" stroke-width="1.4" fill="none" class="dash"/>
+<circle r="3.4" fill="#7c3aed"><animateMotion dur="3.7s" begin="0.37s" repeatCount="indefinite" path="M640 318 L780 98"/></circle>
+<path d="M640 318 L250 200" stroke="#00f0ff" stroke-opacity=".35" stroke-width="1.4" fill="none" class="dash"/>
+<circle r="3.4" fill="#00f0ff"><animateMotion dur="4.2s" begin="0.74s" repeatCount="indefinite" path="M640 318 L250 200"/></circle>
+<path d="M640 318 L140 300" stroke="#00f0ff" stroke-opacity=".35" stroke-width="1.4" fill="none" class="dash"/>
+<circle r="3.4" fill="#00f0ff"><animateMotion dur="4.7s" begin="1.11s" repeatCount="indefinite" path="M640 318 L140 300"/></circle>
+<path d="M640 318 L250 400" stroke="#00f0ff" stroke-opacity=".35" stroke-width="1.4" fill="none" class="dash"/>
+<circle r="3.4" fill="#00f0ff"><animateMotion dur="5.2s" begin="1.48s" repeatCount="indefinite" path="M640 318 L250 400"/></circle>
+<path d="M640 318 L1040 170" stroke="#27c93f" stroke-opacity=".35" stroke-width="1.4" fill="none" class="dash"/>
+<circle r="3.4" fill="#27c93f"><animateMotion dur="3.2s" begin="1.85s" repeatCount="indefinite" path="M640 318 L1040 170"/></circle>
+<path d="M640 318 L1150 255" stroke="#27c93f" stroke-opacity=".35" stroke-width="1.4" fill="none" class="dash"/>
+<circle r="3.4" fill="#27c93f"><animateMotion dur="3.7s" begin="2.22s" repeatCount="indefinite" path="M640 318 L1150 255"/></circle>
+<path d="M640 318 L1060 340" stroke="#27c93f" stroke-opacity=".35" stroke-width="1.4" fill="none" class="dash"/>
+<circle r="3.4" fill="#27c93f"><animateMotion dur="4.2s" begin="2.59s" repeatCount="indefinite" path="M640 318 L1060 340"/></circle>
+<path d="M640 318 L1150 430" stroke="#27c93f" stroke-opacity=".35" stroke-width="1.4" fill="none" class="dash"/>
+<circle r="3.4" fill="#27c93f"><animateMotion dur="4.7s" begin="2.96s" repeatCount="indefinite" path="M640 318 L1150 430"/></circle>
+<path d="M640 318 L220 566" stroke="#ffb347" stroke-opacity=".35" stroke-width="1.4" fill="none" class="dash"/>
+<circle r="3.4" fill="#ffb347"><animateMotion dur="5.2s" begin="0.33s" repeatCount="indefinite" path="M640 318 L220 566"/></circle>
+<path d="M640 318 L402 566" stroke="#ffb347" stroke-opacity=".35" stroke-width="1.4" fill="none" class="dash"/>
+<circle r="3.4" fill="#ffb347"><animateMotion dur="3.2s" begin="0.70s" repeatCount="indefinite" path="M640 318 L402 566"/></circle>
+<path d="M640 318 L640 566" stroke="#ffb347" stroke-opacity=".35" stroke-width="1.4" fill="none" class="dash"/>
+<circle r="3.4" fill="#ffb347"><animateMotion dur="3.7s" begin="1.07s" repeatCount="indefinite" path="M640 318 L640 566"/></circle>
+<path d="M640 318 L847 566" stroke="#ffb347" stroke-opacity=".35" stroke-width="1.4" fill="none" class="dash"/>
+<circle r="3.4" fill="#ffb347"><animateMotion dur="4.2s" begin="1.44s" repeatCount="indefinite" path="M640 318 L847 566"/></circle>
+<path d="M640 318 L1029 566" stroke="#ffb347" stroke-opacity=".35" stroke-width="1.4" fill="none" class="dash"/>
+<circle r="3.4" fill="#ffb347"><animateMotion dur="4.7s" begin="1.81s" repeatCount="indefinite" path="M640 318 L1029 566"/></circle>
+<g class="pulse" style="animation-delay:1.7s"><rect x="417" y="78" width="166" height="40" rx="20" fill="#0a1220" stroke="#7c3aed" stroke-width="1.6"/><circle cx="433" cy="98" r="4" fill="#7c3aed"/><text x="506" y="104" text-anchor="middle" fill="#e6edf3" font-size="19" font-weight="600">Pentesting</text></g>
+<g class="pulse" style="animation-delay:1.2s"><rect x="703" y="78" width="153" height="40" rx="20" fill="#0a1220" stroke="#7c3aed" stroke-width="1.6"/><circle cx="719" cy="98" r="4" fill="#7c3aed"/><text x="786" y="104" text-anchor="middle" fill="#e6edf3" font-size="19" font-weight="600">Hardening</text></g>
+<g class="pulse" style="animation-delay:0.2s"><rect x="180" y="180" width="141" height="40" rx="20" fill="#0a1220" stroke="#00f0ff" stroke-width="1.6"/><circle cx="196" cy="200" r="4" fill="#00f0ff"/><text x="256" y="206" text-anchor="middle" fill="#e6edf3" font-size="19" font-weight="600">Firewall</text></g>
+<g class="pulse" style="animation-delay:0.2s"><rect x="44" y="280" width="191" height="40" rx="20" fill="#0a1220" stroke="#00f0ff" stroke-width="1.6"/><circle cx="60" cy="300" r="4" fill="#00f0ff"/><text x="146" y="306" text-anchor="middle" fill="#e6edf3" font-size="19" font-weight="600">Segmentation</text></g>
+<g class="pulse" style="animation-delay:0.5s"><rect x="192" y="380" width="116" height="40" rx="20" fill="#0a1220" stroke="#00f0ff" stroke-width="1.6"/><circle cx="208" cy="400" r="4" fill="#00f0ff"/><text x="256" y="406" text-anchor="middle" fill="#e6edf3" font-size="19" font-weight="600">Réseau</text></g>
+<g class="pulse" style="animation-delay:0.2s"><rect x="995" y="150" width="90" height="40" rx="20" fill="#0a1220" stroke="#27c93f" stroke-width="1.6"/><circle cx="1011" cy="170" r="4" fill="#27c93f"/><text x="1046" y="176" text-anchor="middle" fill="#e6edf3" font-size="19" font-weight="600">SIEM</text></g>
+<g class="pulse" style="animation-delay:0.9s"><rect x="1111" y="235" width="78" height="40" rx="20" fill="#0a1220" stroke="#27c93f" stroke-width="1.6"/><circle cx="1127" cy="255" r="4" fill="#27c93f"/><text x="1156" y="261" text-anchor="middle" fill="#e6edf3" font-size="19" font-weight="600">SOC</text></g>
+<g class="pulse" style="animation-delay:0.2s"><rect x="977" y="320" width="166" height="40" rx="20" fill="#0a1220" stroke="#27c93f" stroke-width="1.6"/><circle cx="993" cy="340" r="4" fill="#27c93f"/><text x="1066" y="346" text-anchor="middle" fill="#e6edf3" font-size="19" font-weight="600">Monitoring</text></g>
+<g class="pulse" style="animation-delay:0.5s"><rect x="1080" y="410" width="141" height="40" rx="20" fill="#0a1220" stroke="#27c93f" stroke-width="1.6"/><circle cx="1096" cy="430" r="4" fill="#27c93f"/><text x="1156" y="436" text-anchor="middle" fill="#e6edf3" font-size="19" font-weight="600">Forensic</text></g>
+<g class="pulse" style="animation-delay:0.8s"><rect x="168" y="546" width="103" height="40" rx="20" fill="#0a1220" stroke="#ffb347" stroke-width="1.6"/><circle cx="184" cy="566" r="4" fill="#ffb347"/><text x="226" y="572" text-anchor="middle" fill="#e6edf3" font-size="19" font-weight="600">Linux</text></g>
+<g class="pulse" style="animation-delay:0.2s"><rect x="293" y="546" width="216" height="40" rx="20" fill="#0a1220" stroke="#ffb347" stroke-width="1.6"/><circle cx="309" cy="566" r="4" fill="#ffb347"/><text x="408" y="572" text-anchor="middle" fill="#e6edf3" font-size="19" font-weight="600">Virtualisation</text></g>
+<g class="pulse" style="animation-delay:1.0s"><rect x="532" y="546" width="216" height="40" rx="20" fill="#0a1220" stroke="#ffb347" stroke-width="1.6"/><circle cx="548" cy="566" r="4" fill="#ffb347"/><text x="646" y="572" text-anchor="middle" fill="#e6edf3" font-size="19" font-weight="600">Automatisation</text></g>
+<g class="pulse" style="animation-delay:0.7s"><rect x="770" y="546" width="153" height="40" rx="20" fill="#0a1220" stroke="#ffb347" stroke-width="1.6"/><circle cx="786" cy="566" r="4" fill="#ffb347"/><text x="853" y="572" text-anchor="middle" fill="#e6edf3" font-size="19" font-weight="600">Scripting</text></g>
+<g class="pulse" style="animation-delay:1.1s"><rect x="946" y="546" width="166" height="40" rx="20" fill="#0a1220" stroke="#ffb347" stroke-width="1.6"/><circle cx="962" cy="566" r="4" fill="#ffb347"/><text x="1035" y="572" text-anchor="middle" fill="#e6edf3" font-size="19" font-weight="600">Sauvegarde</text></g>
+<polygon points="515,318 570,266 710,266 765,318 710,370 570,370" fill="#06101c" stroke="url(#ln)" stroke-width="2.5"/>
+<polygon points="515,318 570,266 710,266 765,318 710,370 570,370" fill="none" stroke="#00f0ff" stroke-opacity=".35" stroke-width="8" class="pulse"/>
+<text x="640" y="326" text-anchor="middle" fill="#ffffff" font-size="25" font-weight="700">Cybersécurité</text>
+</svg>
